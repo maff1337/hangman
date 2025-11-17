@@ -1,0 +1,58 @@
+[menu.main]
+welcome = '''Welcome to the game "Hangman"!
+Let’s start the game!'''
+current_status = '''
+Current language: {language}
+Current difficulty: {difficulty}
+'''
+menu_options = '''1. New Game
+2. Change Difficulty
+3. Change Language
+4. Exit
+'''
+prompt = '''
+Please choose one of the available options
+'''
+goodbye = '''
+Thank you for playing, goodbye!'''
+
+[menu.language]
+prompt = '''Choose the game language:
+
+1. {ru}
+2. {en}
+'''
+ru = 'Russian'
+en = 'English'
+
+[menu.difficulty]
+prompt = '''
+Select the game difficulty level:
+
+1. {easy}
+2. {medium}
+3. {hard}
+'''
+easy = 'Easy'
+medium = 'Medium'
+hard = 'Hard'
+
+[menu.common]
+invalid_choice = '''
+Invalid input. Please choose one of the available options
+'''
+
+[gameplay]
+request_letter = '''
+Please enter a letter: '''
+used_letters = 'Used letters: '
+mistakes_info = 'Mistakes made: {mistakes}, allowed mistakes: {max_mistakes}'
+
+[results]
+won = '''
+
+You won!'''
+lost = '''
+Unfortunately, you lost!'''
+word_was = '''The word was: {word}
+'''
