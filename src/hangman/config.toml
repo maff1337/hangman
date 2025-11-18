@@ -1,0 +1,23 @@
+[game]
+max_mistakes = 5
+mask_char = '_'
+default_language = 'ru'
+default_difficulty = 'easy'
+
+[game.alphabets]
+ru = 'йцукенгшщзхъфывапролджэячсмитьбюё'
+en = 'qwertyuiopasdfghjklzxcvbnm'
+
+[locale]
+ru = 'src/hangman/locales/ru.toml'
+en = 'src/hangman/locales/en.toml'
+
+[difficulty.ru]
+easy = 'src/hangman/data/ru/easy.txt'
+medium = 'src/hangman/data/ru/medium.txt'
+hard = 'src/hangman/data/ru/hard.txt'
+
+[difficulty.en]
+easy = 'src/hangman/data/en/easy.txt'
+medium = 'src/hangman/data/en/medium.txt'
+hard = 'src/hangman/data/en/hard.txt'
