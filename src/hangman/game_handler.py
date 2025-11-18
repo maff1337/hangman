@@ -41,7 +41,7 @@ class GameHandler:
         glossary_path = Path(
             self._config['difficulty'][self._language][self._difficulty])
 
-        with open(glossary_path, 'r') as f:
+        with open(glossary_path, 'r', encoding='utf-8') as f:
             self._words = list(map(lambda x: x.strip(), f.readlines()))
 
     def _update_locale(self, locale: str) -> None:
