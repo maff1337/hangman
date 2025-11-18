@@ -49,7 +49,7 @@ class Renderer:
         prompt = self._phrases['menu']['difficulty']['prompt']
         print(prompt.format(easy=easy, medium=medium, hard=hard))
 
-    def print_invalid_choise(self) -> None:
+    def print_invalid_choice(self) -> None:
         print(self._phrases['menu']['common']['invalid_choice'])
 
     def print_current_game_state(
