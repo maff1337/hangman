@@ -56,3 +56,11 @@ lost = '''
 Unfortunately, you lost!'''
 word_was = '''The word was: {word}
 '''
+
+[error_messages]
+single_required = '''Input must be a single letter
+'''
+alphabet_mismatch = '''Input letter does not belong to the expected alphabet
+'''
+already_used = '''Input letter has already been used
+'''
