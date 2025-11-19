@@ -9,15 +9,15 @@ ru = 'йцукенгшщзхъфывапролджэячсмитьбюё'
 en = 'qwertyuiopasdfghjklzxcvbnm'
 
 [locale]
-ru = 'src/hangman/locales/ru.toml'
-en = 'src/hangman/locales/en.toml'
+ru = 'src/hangman/configs/locales/ru.toml'
+en = 'src/hangman/configs/locales/en.toml'
 
 [difficulty.ru]
-easy = 'src/hangman/data/ru/easy.txt'
-medium = 'src/hangman/data/ru/medium.txt'
-hard = 'src/hangman/data/ru/hard.txt'
+easy = 'src/hangman/configs/data/ru/easy.txt'
+medium = 'src/hangman/configs/data/ru/medium.txt'
+hard = 'src/hangman/configs/data/ru/hard.txt'
 
 [difficulty.en]
-easy = 'src/hangman/data/en/easy.txt'
-medium = 'src/hangman/data/en/medium.txt'
-hard = 'src/hangman/data/en/hard.txt'
+easy = 'src/hangman/configs/data/en/easy.txt'
+medium = 'src/hangman/configs/data/en/medium.txt'
+hard = 'src/hangman/configs/data/en/hard.txt'
