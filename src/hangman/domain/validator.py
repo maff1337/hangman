@@ -1,4 +1,4 @@
-from hangman.exceptions import AlphabetMismatchError, AlreadyUsedLetterError, SingleLetterRequiredError
+from hangman.domain.exceptions import AlphabetMismatchError, AlreadyUsedLetterError, SingleLetterRequiredError
 
 
 class Validator:

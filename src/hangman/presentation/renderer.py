@@ -1,7 +1,7 @@
 from typing import Any
 
-from hangman.gallows import Gallows
-from hangman.word_hander import Word
+from hangman.presentation.gallows import Gallows
+from hangman.domain.word_hander import Word
 
 
 class Renderer:

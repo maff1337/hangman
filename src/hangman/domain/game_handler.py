@@ -2,12 +2,12 @@ from pathlib import Path
 from tomllib import load as toml_load
 from random import choice as random_choice
 
-from hangman.config import Config
-from hangman.renderer import Renderer
-from hangman.validator import Validator
-from hangman.word_hander import WordHandler
-from hangman.exceptions import ValidationException
-from hangman.commands import DifficultyCommands, LanguageCommands, MainMenuCommands
+from hangman.configs.config import Config
+from hangman.presentation.renderer import Renderer
+from hangman.domain.validator import Validator
+from hangman.domain.word_hander import WordHandler
+from hangman.domain.exceptions import ValidationException
+from hangman.domain.commands import DifficultyCommands, LanguageCommands, MainMenuCommands
 
 
 class GameHandler:

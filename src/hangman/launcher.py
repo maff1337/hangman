@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from hangman.config import Config
-from hangman.game_handler import GameHandler
+from hangman.configs.config import Config
+from hangman.domain.game_handler import GameHandler
 
 
 def main() -> None:
