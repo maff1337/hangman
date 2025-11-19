@@ -1,4 +1,4 @@
-Word = str
+type Word = str
 
 
 class WordHandler:
