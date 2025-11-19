@@ -11,16 +11,6 @@ from hangman.domain.commands import DifficultyCommands, LanguageCommands, MainMe
 
 
 class GameHandler:
-    _language: str
-    _difficulty: str
-
-    _words: list[str]
-    _mask_char: str
-    _max_mistakes: int
-
-    renderer: Renderer
-    validator: Validator
-
     def __init__(self, config: Config) -> None:
         self._config = config
 
